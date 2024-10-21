@@ -1,0 +1,15 @@
+[project]
+name = "celery-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask>=3.0.3",
+    "flask-sqlalchemy>=3.1.1",
+    "rembg>=2.0.59",
+    "flask-cors>=5.0.0",
+    "python-dotenv>=1.0.1",
+    "celery>=5.4.0",
+    "redis>=5.1.1",
+]
